@@ -1,4 +1,4 @@
-fetch('data.json')
+fetch('stripe.json')
   .then(function (response) {
     return response.json();
   })
