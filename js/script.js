@@ -86,3 +86,9 @@ function generateTableHead(table, data2) {
   generateTable(table, dataSet);
   generateTableHead(table, data2);
 }
+
+$(function () {
+  $("#loginButton").click(function () {
+      $("#loginModal").modal('show');
+  });
+});
